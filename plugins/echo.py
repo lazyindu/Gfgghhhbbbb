@@ -1,25 +1,25 @@
-import time
-import json
-import asyncio
-import logging
+# import time
+# import json
+# import asyncio
+# import logging
 
-from pyrogram.types import Thumbnail
-from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+# from pyrogram.types import Thumbnail
+# from pyrogram import Client, filters
+# from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from config import *
-from script import Script as Translation
-from plugins.functions.ran_text import random_char
-from plugins.functions.display_progress import humanbytes
+# from config import *
+# from script import Script as Translation
+# from plugins.functions.ran_text import random_char
+# from plugins.functions.display_progress import humanbytes
 
-logging.basicConfig(
-    level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-)
-logger = logging.getLogger(__name__)
-logging.getLogger("pyrogram").setLevel(logging.WARNING)
+# logging.basicConfig(
+#     level=logging.DEBUG, format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+# )
+# logger = logging.getLogger(__name__)
+# logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 
-# @Client.on_message(filters.private)
+# @Client.on_message(filters.private & filters.regex(pattern=".*http.*"))
 # async def echo(bot, update):
 #     logger.info(update.from_user)
 #     url = update.text

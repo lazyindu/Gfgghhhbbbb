@@ -21,10 +21,16 @@ pyquery
 beautifulsoup4
 fdown-api==0.0.3
 tqdm==4.66.5
-pytube
+# pytube
 requests
 loggers
 yt-dlp
 wget
 youtube_dl
 sent
+
+numpy
+olefile
+lk21
+filetype
+tldextract

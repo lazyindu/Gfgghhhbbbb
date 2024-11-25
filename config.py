@@ -52,7 +52,8 @@ HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
 PROCESS_MAX_TIMEOUT = 3700
 ADL_BOT_RQ = {}
 AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
-
+DEF_THUMB_NAIL_VID_S = os.environ.get("DEF_THUMB_NAIL_VID_S", "https://telegra.ph/file/1efd13f55ef33d64aa2c8.jpg")
+DEF_WATER_MARK_FILE = ""
 logging.basicConfig(
     level=logging.INFO,
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
