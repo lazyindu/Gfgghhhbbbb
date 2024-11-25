@@ -8,7 +8,7 @@ TgCrypto
 dnspython
 aiohttp
 pyromod==1.5
-telethon
+
 instaloader
 tiktok_downloader
 tiktok-scraper
@@ -21,7 +21,7 @@ pyquery
 beautifulsoup4
 fdown-api==0.0.3
 tqdm==4.66.5
-# pytube
+pytube
 requests
 loggers
 yt-dlp
