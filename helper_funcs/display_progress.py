@@ -15,7 +15,7 @@ import time
 # the secret configuration specific things
 from config import *
 # the Strings used for this "thing"
-from translation import Translation
+# from script import Script as Translation
 
 
 async def progress_for_pyrogram(

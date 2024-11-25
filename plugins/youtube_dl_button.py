@@ -21,7 +21,7 @@ from datetime import datetime
 from config import *
 
 # the Strings used for this "thing"
-from script import script as Translation
+from script import Script as Translation
 
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
